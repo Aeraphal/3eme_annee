@@ -1,0 +1,234 @@
+#principale{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    width: 100%;
+    min-height: 90vh;
+}
+input{
+    padding: 0.5rem;
+}
+label{
+    padding: 0.5rem;
+}
+
+/*part_left*/
+#Part_left{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    order:1;
+    min-height: 90vh;
+    padding-bottom: 5rem;
+}
+#t1{
+    order: 1;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    border-radius: 50% 50% 0% 0% ;
+    background-color: gray;
+}
+#t2{
+    order: 2;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#image_monstre{
+    margin-left: 25%;
+}
+
+#t3{
+    order: 3;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    border-radius: 0% 0% 50% 50% ;
+    background-color: gray;
+}
+#p1{
+    text-align: center;
+  
+
+}
+
+#p2{
+    text-align: center;
+    }   
+
+/*Part_right*/
+
+#Part_right{
+    margin-top: 1rem;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    order:2;
+    background-color:gray;
+    min-height: 90vh;
+    border-bottom:0.01rem black solid;
+    border-right:0.01rem  black solid;
+    border-left:0.01rem  black solid;
+}
+/**/
+#div1{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    border-bottom:0.01rem black solid;
+}
+
+#p3{
+    width: 100%;
+    order: 1;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+
+#race{
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    min-height: 3rem;
+}
+.racediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+/**/
+#div2{
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    border-bottom:0.01rem black solid;
+}
+#div2_1{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    border-right:0.01rem  black solid;
+    width: 50%;
+}
+#p4{
+    width: 100%;
+    order: 1;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#armes{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+.armesdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#div2_2{
+    order: 2;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;   
+}
+#p5{
+    width: 100%;
+    order: 1;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#armures{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+.armuresdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+/**/
+#div3{
+    order: 3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom:0.01rem black solid;
+}
+/**/
+#div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    order: 4;
+    width: 100%;
+}
+#vers_panier{
+    height: 25%;
+    width: 30%;
+    text-align: center;
+    text-justify: center;
+    border-radius: 25%;
+    background-color: chocolate;
+}
+#reset{
+    margin-left:2rem ;
+}
+
+#vers_panier:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+#div5{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+#p6{
+    order: 1;
+}
+
+#p7{
+    margin-left: 0.5rem;
+    order: 2;       
+}
+canvas{
+    border: black solid;
+    margin-left: 25%;
+}
+#image1{display: none;}
+#image2{display: none;}
+#image3{display: none;}
+#image4{display: none;}
+#image5{display: none;}
+#image6{display: none;}
+#image7{display: none;}
+#image8{display: none;}
+#image9{display: none;}
+#image10{display: none;}
+#image11{display: none;}

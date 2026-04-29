@@ -1,0 +1,18 @@
+    <div id="hd1">
+    <p id="np1">
+        TITRE
+    </p>
+    </div>
+
+    <nav>
+        <div id="nd1">
+        <a id="l1" href="../../Code/HTML/Page_d'accueil.html"    >  lien 1</a>
+        </div>
+        <div id="nd2">
+        <a id="l2" href="../../Code/HTML/Page_pour_le_Choix.html?id=1">  lien 2</a>
+        </div>
+        <div id="nd3">
+        <a id="l3" href="../../Code/HTML/Page_du_panier.html">              lien 3</a>
+        </div>
+                  
+    </nav>

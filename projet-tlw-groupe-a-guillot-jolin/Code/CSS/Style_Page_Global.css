@@ -1,0 +1,170 @@
+/*Global*/  
+*{
+    margin:0;
+    padding:0;
+}
+body, html{height:100%;}
+
+
+body 
+    {      
+    background-image: url("../Images/casey-horner-0D8_tYHIy0o-unsplash.jpg");
+         /*forest :Photo by Casey Horner on Unsplash */
+    background-size: cover;
+    }
+
+main{
+    max-width:100%;
+    min-height:100%;
+    position:relative;
+}
+/*header part*/
+
+
+header 
+    {
+    display:flex;
+    flex-direction:row;
+    background:green;
+    height:5rem;
+    }
+    
+#hd1 
+    {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:50%;
+    }
+
+#np1{
+    color: white;  
+}
+/*barre de navigation*/
+nav 
+    {
+    order:2;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+    }
+
+nav div{
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    height: 70%;
+    width: 26%;
+    color:transparent;
+    text-align: center;
+    background-size:contain;
+    background-repeat:no-repeat ;
+}
+
+#nd1{
+    order:1 ;
+}
+
+#nd2{
+    order: 2;
+}
+#nd3{
+    order: 3;
+}
+
+#l1
+    {
+    background-image: url("../Images/épée_et_bouclier2.png");
+    }
+
+#l2
+    {
+    background-image: url("../Images/épée_et_bouclier2.png");
+    }
+
+#l3
+    {
+    background-image: url("../Images/Coffre2.png");
+    }
+/*heade hover*/
+nav a:hover{
+    opacity: 50%;
+}
+
+/*footer*/
+footer{
+    height: 5rem;
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
+}
+    
+footer div{
+    flex-grow:1;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 25%;
+
+}
+footer a {
+    color: black;
+}
+
+#fd1{
+    order:1;
+}
+#fd2{
+    order:2;
+}
+#fd3{
+    order:3;
+}
+#fd4{
+    order:4;
+}
+/*footer hover*/
+footer a:hover{
+    color: blue;
+    font-size: larger;
+}
+/*bouton back to the top*/
+#boutonback{
+    display: flex;  
+    align-items: center;
+    justify-content:center ;
+    position: fixed ;
+    bottom:1rem;
+    right:1rem;
+    height: 2rem;
+    width: 2rem;
+    visibility: hidden;
+    
+    
+}
+#bl1{
+    height: 100%;
+    width:100%;
+    color:transparent;
+    background-image: url("../Images/épée_et_bouclier2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+/*autre*/
+/*faire une fenetre mini
+main{
+    size:auto;
+}*/

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+
+        <head>
+            <link rel="stylesheet" href="../CSS/Style_Page_d'accueil.css">
+            <link rel="stylesheet" href="../CSS/Style_Page_Global.css">
+
+            
+            <meta charset="UTF-8"> 
+
+            <title>
+                Page d'accueil 
+            </title>
+
+        </head>
+        
+
+        <body>
+            <main>
+                <header id="h1">                
+                </header>
+
+            
+                
+                <form id="df" onchange=" filtres_prix()" onkeyup="filtres_prix ()">
+                    
+                    <input id="filtre_max" type="number" name="Maximum_price" placeholder="Entrer un prix Maximum" min=0>
+                    <label id="lab2" for="filtre_max">Choissisez un prix Maximum</label>
+                    
+                    <input  id="filtre_min" type="number" name="Minimum_price" placeholder="Entrer un prix Minimum"  min=0>
+                    <label id="lab1" for="filtre_min">Choissisez un prix Minimum</label>
+                    
+                            
+                </form>
+            
+                <div id="principale">
+                    <div class="produit" id="Goblin">
+                        <a class="produitlien" id="pl1" href="../../Code/HTML/Page_pour_le_Choix.html?id=1">    <img src="../../Code/Images/Goblin_retouche.png" alt=""> </a>
+                    </div>
+                    <div class="produit" id="Loup_Garou"> 
+                        <a class="produitlien" id="pl2" href="../../Code/HTML/Page_pour_le_Choix.html?id=2">    <img src="../../Code/Images/Loupgarou.png" alt="">  </a>
+                    </div>
+                    <div class="produit" id="Naga">
+                        <a class="produitlien" id="pl3" href="../../Code/HTML/Page_pour_le_Choix.html?id=3">    <img src="../../Code/Images/Naga.png" alt="">  </a>
+                    </div>                                           
+                </div>
+                
+
+               
+           
+                <footer id="f1">
+                </footer>   
+            </main>  
+             
+            <div id=boutonback>
+                <a id='bl1' href="#h1" > lien5665 </a>
+            </div>                 
+
+        </body>
+        
+        <script src="../JS/Script_Page_Global.js"></script>
+        <script src="../JS/Script_Page_d'acceil.js"></script>
+    </html>

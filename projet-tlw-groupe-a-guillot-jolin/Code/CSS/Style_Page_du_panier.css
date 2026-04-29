@@ -1,0 +1,109 @@
+/**/
+#main{
+    background-color: grey ;
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    
+}
+/*Panier*/
+#panier{
+    display: flex;
+    height: auto;
+    width: 50%;
+    background-color:white ;
+    flex-direction:column ;
+    min-height:90vh;
+    border:0.01rem  black solid;
+   
+    
+}
+#p1{
+    order :1 ;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#p2{
+    text-align: center;
+    order:2;
+    width: 100%;    
+}
+#storage{
+    order: 3;
+    height: auto;
+}
+/*Formulaire*/
+.info{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+label{
+    order: 1
+    
+}
+input{
+    order: 2;
+    
+}
+#formulaire{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height:90vh;
+    border:0.01rem  black solid;
+    
+}
+#p3{
+    order: 1;
+    width: 100%;
+    text-align: center;
+}
+
+#formulaire_achat{
+    order: 2;
+}
+
+#recap{
+    display: flex;
+    flex-direction: column;
+}
+
+#p4{
+    order: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+#p5{
+    width: 95%;
+    order: 2;
+    background-color: white;
+    text-align: center;
+}
+#bouttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reset{
+    width: 20%;
+    margin-top: 2rem;
+    height: 2rem;
+}
+#soumettre{
+    width: 40%;
+    margin-top: 2rem;
+    height: 2rem;
+}

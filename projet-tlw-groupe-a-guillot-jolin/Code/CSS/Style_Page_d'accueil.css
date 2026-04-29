@@ -1,0 +1,84 @@
+
+
+
+/*Centre choix et filtre*/
+#df{
+    display: flex;
+    padding-top:6rem ;
+    height: 2rem;
+    padding-bottom: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+label{
+    color:white;
+    background-color: black;
+}
+#lab1{
+    order:1;
+    margin-right:2rem ;
+}
+
+#lab2{
+    order:3;
+    margin-right:2rem ;
+}
+
+
+
+#filtre_max{
+    order: 4;
+    margin-right:2rem ;
+}
+
+#filtre_min{
+    order: 2;
+    margin-right:2rem ;
+    
+
+}
+
+
+/*produits principaux*/
+#principale{
+    display: flex;
+    background-color:transparent;
+    flex-wrap: wrap;
+    align-items:space-around;
+    padding-bottom: 5rem;
+       
+}
+.produit{
+    display: flex;
+    flex-grow:1;
+    margin:2rem;
+    color: transparent;   
+}
+
+.produitlien{
+    size:100%;
+}
+#Goblin{
+    order:1;    
+}
+#Loup_Garou{
+    order:2;
+}
+#Naga{
+    order:3;
+}
+#Ghoul{
+    order:4;
+}
+#Ogre{
+    order:5;
+}
+#Gargouille{
+    order:6;
+}
+
+.produitlien:hover{
+    border: 1rem solid green;
+    margin: -1rem;     
+    }

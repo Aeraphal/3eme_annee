@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+
+        <head>
+            <link rel="stylesheet" href="../CSS/Style_Page_pour_le_Choix.css">
+            <link rel="stylesheet" href="../CSS/Style_Page_Global.css">
+
+            <meta charset="UTF-8">            
+            <title>
+                LA HORDE
+            </title> 
+        </head>
+
+        
+        
+        <body>
+            <main>
+                <header id="h1"> 
+            
+                </header>
+                <div id='principale'>
+                    <div id="Part_left">
+
+                        <div id='t1'> 
+                            <template id="t_nmonstre">
+                                    <p id="p1">
+                                        {{nom_du_monstre}}
+                                    </p>
+                            </template> 
+                        </div>
+                        <div id="t2">
+                            
+                            <canvas width="400" height="400"></canvas>
+                            <img classe="image" id="image1" src="../Images/Goblin_retouche.png" alt="">
+                            <img classe="image" id="image2" src="../Images/Loupgarou.png" alt="">
+                            <img classe="image" id="image3" src="../Images/Naga.png" alt="">
+                            <img classe="image" id="image4" src="../Images/Epee_2.png" alt="">
+                            <img classe="image" id="image5" src="../Images/Baton_2.png" alt="">
+                            <img classe="image" id="image6" src="../Images/Arc_2.png" alt="">
+                            <img classe="image" id="image7" src="../Images/Bottes.png" alt="">
+                            <img classe="image" id="image8" src="../Images/Epaulettes.png" alt="">
+                            <img classe="image" id="image9" src="../Images/Masque.png" alt="">
+                            <img classe="image" id="image10" src="../Images/Cornes.png" alt="">
+                            <img classe="image" id="image11" src="../Images/boucle_doreille.png" alt="">
+                        </div>
+                        <div id="t3">
+                            <template id="t_lmonstre">
+                                    <p id="p2">
+                                        level:{{level}}
+                                    </p>
+                            </template>
+                        </div>
+                            
+                    
+                    </div>
+                    <div id="Part_right">
+                        <div id="div1">
+                            <p id="p3">
+                                Choissisez un Monstre
+                            </p>
+
+                            <form id="race" onchange=" draw(), price_and_other()">
+                                <div id="racediv1" class="racediv">
+                                    <input type="radio" id="Goblin" name="Monstre" value="1">
+                                    <label for="Goblin">Goblin</label> 
+                                </div>
+                                
+                                <div class="racediv">
+                                    <input type="radio" id="Loup_Garou" name="Monstre" value="1">
+                                    <label for="Loup_Garou">Loup_Garou</label> 
+                                </div>
+
+                                <div class="racediv">
+                                    <input type="radio" id="Naga" name="Monstre" value="1">
+                                    <label for="Naga">Naga</label>
+                                </div>
+<!--
+                                <div class="racediv">
+                                    <input type="radio" id="Ghoul" name="Monstre">
+                                    <label for="Ghoul">Ghoul</label> 
+                                </div>
+
+                                <div class="racediv">
+                                    <input type="radio" id="Ogre" name="Monstre">
+                                    <label for="Ogre">Ogre</label> 
+                                </div>
+
+                                <div class="racediv">
+                                    <input type="radio" id="Gargouille" name="Monstre">
+                                    <label for="Gargouille">Gargouille</label> 
+                                </div>
+                                -->
+                            </form>                           
+                        </div>
+
+                        <div id="div2">
+                            <div id="div2_1">
+                                <p id="p4">
+                                    Choissisez son arme
+                                </p>
+
+                                <form id="armes" onchange=" draw(), price_and_other() ">
+                                    <div class="armesdiv">
+                                        <input type="radio" id="Epee" name="arme" value="1">
+                                        <label for="Epee">épée</label>
+                                    </div>
+
+                                    <div class="armesdiv">
+                                        <input type="radio" id="Baton" name="arme" value="1">
+                                        <label for="Baton">baguette de mage</label>
+                                    </div>
+
+                                    <div class="armesdiv">
+                                        <input type="radio" id="Arc" name="arme" value="1">
+                                        <label for="Arc">arc</label>
+                                    </div>
+
+                                    <div class="armesdiv">
+                                        <input type="radio" id="rien" name="arme" value="1">
+                                        <label for="rien">--aucune--</label>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div id="div2_2">
+                                <p id="p5">
+                                    Choissisez son armure
+                                </p>
+
+                                <form id="armures" onchange=" draw() ,price_and_other()" >
+                                    <div class="armuresdiv">
+                                        <input type="checkbox" id="Bottes" name="Bottes" value="1">
+                                        <label for="Bottes">bottes</label>
+                                    </div>
+
+                                    <div class="armuresdiv">
+                                        <input type="checkbox" id="Epaulettes" name="Epaulettes"value="1" >
+                                        <label for="Epaulettes">épaulettes</label>
+                                    </div>
+
+                                    <div class="armuresdiv">
+                                        <input type="checkbox" id="Masque" name="Masque" value="1">
+                                        <label for="Masque">masque</label>
+                                    </div>
+
+                                    <div class="armuresdiv">
+                                        <input type="checkbox" id="Cornes" name="Cornes" value="1">
+                                        <label for="Cornes">cornes</label>
+                                    </div>
+
+                                    <div class="armuresdiv">
+                                        <input type="checkbox" id="Boucle_doreille" name="Boucle_doreille">
+                                        <label for="Boucle_doreille">boucles</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="div3">
+                            <form id="armée" onchange="price_and_other()">
+                                <input type="number" id="number" value="1" name="number" min="1" >
+                                <label for="number">Choissisez le nombre de monstre</label>
+                                
+                            </form>
+
+                        </div>
+
+                        <div id="div4">
+                            <input onclick="addpanier(),window.location.href='Page_du_panier.html'" type="button" id="vers_panier" value="Ajouter au Panier">
+                            <input onclick="reset2(),price_and_other(),draw()" type="button" id="reset" value="reset">
+                            <div id="div5">
+                                <p id="p6">
+                                    le prix
+                                </p>
+                                <p id="p7">
+                                    0
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+                <footer id="f1">
+                </footer> 
+            </main>   
+            
+            <div id=boutonback>
+                <a id='bl1' href="#h1" > lien5665 </a>
+            </div>
+
+            
+        </body>
+        <script src="../JS/Script_Page_Global.js"></script>
+        <script src="../JS/Script_Page_pour_le_Choix.js"></script>
+    </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+
+        <head>
+            <link rel="stylesheet" href="../CSS/Style_Page_du_panier.css">
+            <link rel="stylesheet" href="../CSS/Style_Page_Global.css">
+
+            <meta charset="UTF-8">            
+            <title>
+                Panier
+            </title>
+
+        </head>
+        <body>
+            <main>
+                <header id="h1">                             
+                </header>
+
+                <div id="main">
+                    <div id="panier">
+                        <p id="p1">
+                            Prix de votre panier
+                        </p>
+
+                        <p id="p2">
+                            0
+                        </p>
+
+                        <div id="storage">
+
+                        </div>
+                    </div>
+
+                    <div id="formulaire">
+                        <p id="p3">
+                                Formulaire d'achat
+                        </p>
+                        <form id='formulaire_achat' action="">
+
+                            <div class="info">
+                                <label for="Nom"> Entrer votre Nom </label>
+                                <input id="Nom" value="" type="text" name="Nom" placeholder="Guillot" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Prenom"> Entrer votre Prenom </label>
+                                <input id="Prenom" value="" type="text" name="Prenom" placeholder="Alexandre" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Mail"> Entrer votre Mail </label>
+                                <input id="Mail" value="" type="email" name="Nom" placeholder="Guillot.Alexandre@gmail.fr" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Tel"> Entrer votre Téléphone </label>
+                                <input id="Tel" value="" type="tel" name="Tel" placeholder="06666666666" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Date"> Entrer votre Téléphone </label>
+                                <input id="Date" value="" type="date" name="Date" placeholder="06666666666" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Pays"> Pays de livraison </label>
+                                <input id="Pays" value="" type="text" name="Pays" placeholder="France" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Ville"> Ville de livraison </label>
+                                <input id="Ville" value=""  type="text" name="Ville" placeholder="Lyon" >
+                            </div>
+
+                            <div class="info">
+                                <label for="Adresse"> Adresse de livraison </label>
+                                <input id="Adresse" value="" type="text" name="Adresse" placeholder="8 porte de Mars" >
+                            </div>
+
+                            <div id="recap" class="info">
+                                <p id="p4">
+                                    Récapitulatif de votre commande
+                                </p>
+                                <p id="p5">
+                                    bas le recape
+                                </p>
+                            </div>
+
+                            <div id="bouttons">
+                                <input type="button" id="soumettre" value="soumettre_votre_formulaire">
+                                <input type="button" onclick="reset1()" id="reset" value="reset">
+                            </div>
+                            
+                            
+                            
+
+                        </form>
+                    </div>
+                </div>
+               
+                <footer id="f1">
+                </footer> 
+
+            </main>
+
+            <div id=boutonback>
+                <a id='bl1' href="#h1" > lien5665 </a>
+            </div>
+
+            
+            <script src="../JS/Script_Page_Global.js"></script>
+            <script src="../JS/Script_Page_du_panier.js"></script>
+        </body>
+    </html>

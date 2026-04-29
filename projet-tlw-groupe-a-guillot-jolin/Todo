@@ -1,0 +1,30 @@
+                            Todo
+utiliser une fiche normalisée type necolas.github.io/normaliz.css/ ??
+
+Global:
+--En-tête--
+Liens vers accueil/A propos& contact/contenu du panier
+--pied de page--
+infos générals(conditions générals)
+
+Page 1(principal)
+body:
+    -case 1 filtrage prix ect
+    -cases 4/6 images Monstres vendus'& liens vers page 2
+    (optionel animation)
+
+page 2 personnalisation
+body:
+    image Monstres avec textes intéractifs
+    differents Monstres
+    cases (grilles de personnalisation):
+        couleurs (choix)
+        armes(choix)
+        armures (choix)
+    case récap
+    case ajouter panier
+
+
+
+
+
