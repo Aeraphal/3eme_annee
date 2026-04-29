@@ -1,0 +1,16 @@
+Mettre un carré au milieu du CANVAS???
+
+Apparition des pommes : 
+    - Algorithme les plaçant par hasard sur le CANVAS
+        - Faire en sorte qu'ils n'apparaissent pas à un endroit innatteignable
+        - Faire apparaitre un cercle à cette endroit
+
+Lier les touches du clavier
+    - Le serpent bouge dans la direction actuellement choisit
+    - Si on touche un bouton il conserve cette direction
+    - Le serpent avance à intervalle régulière
+        -Chaque mouvement entraine un ajout dans la liste taille dans le sens de la direction
+        -Chaque mouvement entraine un retrait du dernier élément en liste
+        
+
+Gérer les collisions
